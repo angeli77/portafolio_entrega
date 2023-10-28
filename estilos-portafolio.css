@@ -1,0 +1,14 @@
+h1 {
+    color: white;
+}
+
+.contenedor {
+    width: 100vw;
+}
+
+.pagina {
+    display: inline-block;
+    border-radius: 5%;
+    overflow: hidden;
+    width: 50vw;
+}

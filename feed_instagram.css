@@ -1,0 +1,40 @@
+
+.contendor { /* Esta clase se utiliza para el contenedor principal */
+    height: 100vh; /* Le decimos al contenedor que va a ser del 100% de la altura del pantalla */
+    width: 35vw; /* Le decimos al contenedor que va a ser del 35% del ancho del pantalla */
+}
+
+.top { /* Esta clase se utiliza para el contenedor de los botones de arriba */
+    border-bottom: solid gray 1px; /* Aplica un borde en la parte baja del div de top, el que contiene los iconos */
+    height: 40px;
+    padding: 10px;
+}
+
+.iconos { /* Esta clase se utiliza dar tamaño a todos los iconos de arriba */
+    width: 40px;
+    height: 40px;
+}
+
+.iconos-izquierda {
+    float: left; /* Hace flotar el icono a la izquierda */
+}
+
+.iconos-derecha {
+    float: right;  /* Hace flotar el icono a la derecha */
+}
+
+.estados { /* Esta clase se utiliza para el contenedor de las imagenes de los estados */
+    border-bottom: solid gray 1px;  /* Aplicamos un borde en la parte baja del div estados */
+    padding: 10px;  /* Aplicamos un espaciado interno al div con la clase estados */
+}
+
+.estados > div { /* De esta forma seleccionamos los div que esten dentro del div con la clase estados */
+    display: inline-block; /* Muestra los div en linea uno al lado del otro */
+    width: 100px;  /* Le pone un ancho de 100 px al div */
+    height: 100px; /* Le pone un alto de 100 px al div */
+    border-radius: 100%; /* Redondea el borde del div */
+    border: 4px double #d3d1d1; /* Aplica un borde doble con un color gris claro */
+    overflow: hidden; /* Oculta el resto de la imagen, para que no se salgan del borde */
+}
+
+
