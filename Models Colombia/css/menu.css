@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navegacion {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: wheat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.menu {
+    display:flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.menu > a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    color:wheat;
+    font-size: large;
+}
+
+.menu a:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.075)
+}
+
+section {
+    padding-top: 200px !important;
+}
+
+.container-portada {
+    height: 900px;
+    width: 100%;
+    background-image: url(../imagenes/banner.jpg);
+    background-size: 200%;
+    opacity: 0.5;
+    animation: movimiento 10s infinite linear alternate;
+    position: relative;
+}
+
+.tamañoimg{
+    margin-left: 50%;
+    text-align: center;
+    
+    width: 49px;
+    height: 50px
+}
+
+.tamañoimg:hover{
+    
+    
+    margin-left: 50%;
+    text-align: center;
+    
+    width: 52px;
+    height: 52px;
+
+
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, white);
+    opacity: 0.5;
+}
+.container-portada:hover {
+    filter: grayscale(-50%);
+    filter: blur(5px);
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: table;
+}
+
+.intercentrado {
+    position: absolute;
+    top: 132%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: table;
+}
+
+.otrocentrado{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: table;
+}
+
+/* Flecha scroll Down */
+
+.flecha{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: .3s;
+    opacity: .5;
+}
+
+.flecha:hover{
+    background-color: rgb(240, 239, 239);
+    transform: scale(1.1);
+}
+
+.flecha img{
+    width: 60px;
+}
+
+
+.titulomodelos {
+    text-align: center;
+    
+}
+
+.btn-flecha{
+    padding: 10px;
+    justify-content: center;
+}
+
+.iconos {
+    width: 20px;
+    
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.ico{
+    margin-bottom: 20px;
+}
+
+.main-footer a{
+    padding: 10px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background-color: wheat;
+    flex-direction: column;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu a {
+    padding: 20px 0px;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-menu img {
+    text-align: center;
+}
+
+.btn-wsp {
+    width: 75px;
+    height: 75px;
+    background-color: #25D366;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn-wsp i {
+    font-size: 60px;
+    color: #fff;
+    
+}
+
+
+.btn-wsp:hover {
+    transform: scale(1.1);
+    background-color: #128C7E;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
+.whatsapp{
+    width: 40px;
+    height: 39px;
+}

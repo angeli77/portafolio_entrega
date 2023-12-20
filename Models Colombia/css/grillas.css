@@ -1,0 +1,82 @@
+/* clase para el contenedor */
+.container {
+    padding: 100px;
+}
+
+/* clase para las filas (row) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* se aplica a todas las columnas */
+.col {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* Activa las clases cuando la pantalla tenga hasta 479 pixeles */
+@media (max-width: 479px) {
+    .container { padding: 10px; }
+    .xs-1 { flex: 0 0 8.333%; max-width: 8.333%; }
+    .xs-2 { flex: 0 0 16.667%; max-width: 16.667%; }
+    .xs-3 { flex: 0 0 25%; max-width: 25%; }
+    .xs-4 { flex: 0 0 33.333%; max-width: 33.333%; }
+    .xs-5 { flex: 0 0 41.667%; max-width: 41.667%; }
+    .xs-6 { flex: 0 0 50%; max-width: 50%; }
+    .xs-7 { flex: 0 0 58.333%; max-width: 58.333%; }
+    .xs-8 { flex: 0 0 66.667%; max-width: 66.667%; }
+    .xs-9 { flex: 0 0 75%; max-width: 75%; }
+    .xs-10 { flex: 0 0 83.333%; max-width: 83.333%; }
+    .xs-11 { flex: 0 0 91.667%; max-width: 91.667%; }
+    .xs-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* Activa las clases cuando la pantalla tenga minimo 479 pixeles y maximo 1023 pixeles */
+@media (min-width: 480px) and (max-width: 1023px) {
+    .container { padding: 10px; }
+    .s-1 { flex: 0 0 8.333%; max-width: 8.333%; }
+    .s-2 { flex: 0 0 16.667%; max-width: 16.667%; }
+    .s-3 { flex: 0 0 25%; max-width: 25%; }
+    .s-4 { flex: 0 0 33.333%; max-width: 33.333%; }
+    .s-5 { flex: 0 0 41.667%; max-width: 41.667%; }
+    .s-6 { flex: 0 0 50%; max-width: 50%; }
+    .s-7 { flex: 0 0 58.333%; max-width: 58.333%; }
+    .s-8 { flex: 0 0 66.667%; max-width: 66.667%; }
+    .s-9 { flex: 0 0 75%; max-width: 75%; }
+    .s-10 { flex: 0 0 83.333%; max-width: 83.333%; }
+    .s-11 { flex: 0 0 91.667%; max-width: 91.667%; }
+    .s-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* Activa las clases cuando la pantalla tenga minimo 1024 pixeles y maximo 1599 pixeles */
+@media (min-width: 1024px) and (max-width: 1599px) {
+    .m-1 { flex: 0 0 8.333%; max-width: 8.333%; }
+    .m-2 { flex: 0 0 16.667%; max-width: 16.667%; }
+    .m-3 { flex: 0 0 25%; max-width: 25%; }
+    .m-4 { flex: 0 0 33.333%; max-width: 33.333%; }
+    .m-5 { flex: 0 0 41.667%; max-width: 41.667%; }
+    .m-6 { flex: 0 0 50%; max-width: 50%; }
+    .m-7 { flex: 0 0 58.333%; max-width: 58.333%; }
+    .m-8 { flex: 0 0 66.667%; max-width: 66.667%; }
+    .m-9 { flex: 0 0 75%; max-width: 75%; }
+    .m-10 { flex: 0 0 83.333%; max-width: 83.333%; }
+    .m-11 { flex: 0 0 91.667%; max-width: 91.667%; }
+    .m-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* Activa las clases cuando la pantalla tenga minimo 1600 pixeles*/
+@media (min-width: 1600px) {
+    .l-1 { flex: 0 0 8.333%; max-width: 8.333%; }
+    .l-2 { flex: 0 0 16.667%; max-width: 16.667%; }
+    .l-3 { flex: 0 0 25%; max-width: 25%; }
+    .l-4 { flex: 0 0 33.333%; max-width: 33.333%; }
+    .l-5 { flex: 0 0 41.667%; max-width: 41.667%; }
+    .l-6 { flex: 0 0 50%; max-width: 50%; }
+    .l-7 { flex: 0 0 58.333%; max-width: 58.333%; }
+    .l-8 { flex: 0 0 66.667%; max-width: 66.667%; }
+    .l-9 { flex: 0 0 75%; max-width: 75%; }
+    .l-10 { flex: 0 0 83.333%; max-width: 83.333%; }
+    .l-11 { flex: 0 0 91.667%; max-width: 91.667%; }
+    .l-12 { flex: 0 0 100%; max-width: 100%; }
+}

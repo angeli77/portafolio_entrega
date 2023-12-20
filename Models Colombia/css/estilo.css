@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto';
+    background-image: url(../imagenes/fondo.avif);
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr {
+    margin-inline: 30px;
+}
+
+.detail-model {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-model .row {
+    justify-content: center;
+}
+
+.detail-model .row > div:nth-child(1) {
+    text-align: right;
+}
+
+.detail-model .row > div:nth-child(3) {
+    text-align: left;
+}
+
+/* Se activa cuando sea menor o igual a 1023px */
+/* Intercambia la posicion de la imagen del modelo y la informacion */
+@media (max-width: 1023px) { 
+    #second-model-hombre > div:nth-child(1) {
+        order: 2;
+    }
+    
+    #second-model-hombre > div:nth-child(2) {
+        order: 1;
+    }
+}
+
+img {
+    aspect-ratio:1 /1 ; /*este nos va a ayudara arreglar el ancho de la imagen*/
+    object-fit:cover;
+}
+
+
+
+.marcas-logos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: right;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.marcas-logos img{
+    max-width: 100px;
+    align-items: center;
+}
+
+.containe{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nosotros-h{
+    margin: 20px 0;
+    padding: -6px;
+
+}
+
+.nosotros-p{
+    margin: 20px 0px;
+}
+
+
+.container-nosotros{
+    max-width: 400px;
+    margin: 29px;
+    display: flex;
+    width: 189px;
+    height: 355px;
+    transform: translate(-2%, -40%);
+    position: absolute;
+    left: 800px;
+    top: 1300px;
+}
+
+
+.mm h1{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

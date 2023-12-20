@@ -1,0 +1,30 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    animation: prueba 30s linear infinite;
+}
+
+.slider img {
+    width: 100%;
+    
+}
+
+@keyframes prueba {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-100%);
+    }
+    66.66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
