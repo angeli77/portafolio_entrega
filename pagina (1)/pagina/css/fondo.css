@@ -1,0 +1,22 @@
+.manuela{
+    background-image: url("../images/manuela.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.samuel{
+    background-image: url("../images/samuel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.centrarManuela{
+    height: 80px;
+    margin-top: 20px;
+    background: rgba(247, 42, 244, 0.482);
+}
+.centrarSamuel{
+    height: 80px;
+    margin-top: 20px;
+    background: rgba(151, 164, 178, 0.426);
+    color: white;
+}
