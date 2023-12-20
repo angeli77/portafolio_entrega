@@ -1,0 +1,117 @@
+body {
+
+    font-family: 'Harry Potter', sans-serif;
+    margin: 0; 
+}
+
+.titulo1 {
+    color: antiquewhite;
+    margin-left: 340px;
+    padding: 181px;
+    font-size: 100px;
+    animation: cambiaColor 3s infinite;
+    text-shadow: 2px 2px 4px rgba(21, 11, 11, 0.8);
+    transition: text-shadow 0.6s ease-in-out;
+}
+
+.titulo1:hover {
+    text-shadow: 4px 4px 8px rgb(13, 8, 77);
+}
+
+@keyframes cambiaColor {
+    0% {
+        color: rgb(251, 249, 249);
+    }
+    50% {
+        color: rgb(224, 221, 208);
+    }
+    100% {
+        color: rgb(190, 215, 243);
+    }
+}
+.boton {
+    
+    position: relative; 
+    text-decoration: none;
+    border-radius: 23em;
+    transition: all .2s;
+    font-family: inherit;
+    font-weight: 500;
+    color: #0a0646;
+    background-color: #ffffffe8;
+    margin-left: 685px;
+    padding: 13px;
+    bottom: 20px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+   }
+   .boton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .boton:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .boton::after {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    transition: all .4s;
+   }
+   
+   .boton::after {
+    background-color: #fff;
+   }
+   
+   .boton:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   a{
+    text-decoration: none;
+   }
+
+
+   iframe{
+    z-index: -999;
+    position: relative;
+   }
+
+   .jk{
+    margin-top: -850px;
+    margin-left: 200px;
+   
+   }
+
+   .shadow__btn {
+    font-family: 'Harry Potter', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-left: 50%;
+    
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
